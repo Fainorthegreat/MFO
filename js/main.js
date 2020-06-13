@@ -108,15 +108,15 @@ function myFunction(x) {
   $(".container--header").toggleClass("header-height");
 }
 
-$(".search").click(function (e) {
-  e.preventDefault();
-  $(".burger-holder").toggle();
-});
+// $(".search").click(function (e) {
+//   e.preventDefault();
+//   $(".burger-holder").toggle();
+// });
 
-$(".close").click(function (e) {
-  e.preventDefault();
-  $(".burger-holder").toggle();
-});
+// $(".close").click(function (e) {
+//   e.preventDefault();
+//   $(".burger-holder").toggle();
+// });
 
 $(function () {
   $('a[href^="#"]').on("click", function (event) {

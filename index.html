@@ -16,11 +16,11 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/swiper.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/aos.css">
+  <link rel="preload" onload="this.rel='stylesheet'" as="style" href="css/swiper.min.css">
+  <link rel="preload" onload="this.rel='stylesheet'" as="style" href="css/bootstrap.min.css">
+  <link rel="preload" onload="this.rel='stylesheet'" as="style" href="css/normalize.css">
+  <link rel="preload" onload="this.rel='stylesheet'" as="style" href="css/animate.css">
+  <link rel="preload" onload="this.rel='stylesheet'" as="style" href="css/aos.css">
   <link rel="stylesheet" href="css/main.css">
 
 
@@ -292,7 +292,7 @@
             <h4 class="footer-list mb-3">Прессе</h4>
             <ul class="list-unstyled">
               <li class="mb-2"><a href="./documents.html" class="menu-link footer-menu-link text-decoration-none">Аккредитация</a></li>
-              <li class="mb-2"><a href="./" class="menu-link footer-menu-link text-decoration-none">Пресс-служба</a></li>
+              <li class="mb-2"><a href="#" class="menu-link footer-menu-link text-decoration-none">Пресс-служба</a></li>
               <li class="mb-5"><a href="#" class="menu-link footer-menu-link text-decoration-none">Правила аккредитации</a></li>
             </ul>
             <div class="app-holder">
@@ -309,16 +309,18 @@
         <div class="col">
           <h4 class="footer-list mb-4">Мы в соц. сетях</h4>
             <ul class="list-unstyled list-inline mb-4">
-              <a href="#" class="menu-link footer-menu-link text-decoration-none "><li class="mr-4 list-inline-item footer-icons-utube"></li></a>
-              <a href="#" class="menu-link footer-menu-link text-decoration-none"><li class="mr-4 list-inline-item footer-icons-vk"></li></a>
-              <a href="#" class="menu-link footer-menu-link text-decoration-none"><li class="mr-4 mt-lg-2 list-inline-item footer-icons-fb"></li></a>
-              <a href="#" class="menu-link footer-menu-link text-decoration-none"><li class="mr-4 list-inline-item footer-icons-insta"></li></a>
+              <li class="mr-2 list-inline-item"><a href="#" class="menu-link footer-menu-link text-decoration-none footer-icons-utube">link</a></li>
+              <li class="mr-2 list-inline-item"><a href="#" class="menu-link footer-menu-link text-decoration-none footer-icons-vk">link</a></li>
+              <li class="mr-2 mt-lg-2 list-inline-item"><a href="#" class="menu-link footer-menu-link text-decoration-none footer-icons-fb">link</a></li>
+              <li class="mr-2 mt-lg-2 list-inline-item"><a href="#" class="menu-link footer-menu-link text-decoration-none footer-icons-insta">link</a></li>
             </ul>
           <h4 class="footer-list mb-4">Подписка на новости</h4>
           <p>Получайте самые последние новости платформы</p>
           <form action="" class="mail-sub-form">
+            
             <input type="email" name="mail-sub" id="mail-sub" class="email-input">
-            <button type="submit" class="email-sub"></button>
+            <button type="submit" class="email-sub">sub</button>
+            <label for="mail-sub">Email подписка</label>
           </form>
           <div class="app-holder-mob">
             <h4 class="footer-list mb-3">Приложение</h4>
