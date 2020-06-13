@@ -1,0 +1,28 @@
+
+
+
+@media (max-width: 1200px) {
+    .headline {
+        width: 100%;
+    }
+}
+
+.directions-bcg {
+    background-image: url(../img/directions-bcg.svg);
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+}
+
+@media (max-width: 1690px) {
+    .directions-bcg {
+        background-image: url(../img/directions-bcg-2.svg);
+        background-position-y: 40px;
+        background-position-x: 20%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .directions-bcg {
+        background-image: none;
+    }
+}

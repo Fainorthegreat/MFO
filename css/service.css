@@ -1,0 +1,10 @@
+.service {
+    background-image: url(/img/service-bcg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.union-about {
+    margin-bottom: 0;
+}

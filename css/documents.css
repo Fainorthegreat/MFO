@@ -1,0 +1,22 @@
+.more-info {
+    font-size: 16px;
+    text-transform: none;
+}
+
+.union-about {
+    margin-top: 0;
+}
+
+.headline {
+    width: 90%;
+}
+
+@media (min-width:1200px) {
+    .headline {
+        text-align: right !important;
+    }
+
+    .speach {
+        font-size: 25px;
+    }
+}
