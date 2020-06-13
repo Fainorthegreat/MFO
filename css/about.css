@@ -1,3 +1,6 @@
+main {
+    overflow: hidden;
+}
 
 header {
     height: 90px;
@@ -70,7 +73,7 @@ header {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     margin-left: auto;
-    margin-top: -60px;
+    margin-top: -50px;
     margin-bottom: 60px;
 }
 

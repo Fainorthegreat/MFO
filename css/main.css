@@ -53,6 +53,9 @@ html {
   line-height: 1.4;
 }
 
+main {
+  overflow: hidden;
+}
 
 hr {
   display: block;
@@ -528,6 +531,7 @@ input[type="search"]::-webkit-input-placeholder {
 
 .partners {
   background-color: #323232;
+  overflow-x: hidden;
 }
 
 .partners-title {
@@ -712,12 +716,6 @@ input[type="search"]::-webkit-input-placeholder {
   .register-btn {
     padding-right: 0;
   }
-
-  .container--header {
-    overflow-x: scroll;
-    height: -webkit-fill-available;
-    overflow-y: scroll;
-  }
   
   .side-btn {
     width: auto;
@@ -737,6 +735,12 @@ input[type="search"]::-webkit-input-placeholder {
 }
 
 @media (max-width: 1199px) {
+
+  .container--header {
+    overflow-x: scroll;
+    height: -webkit-fill-available;
+    overflow-y: scroll;
+  }
 
   .desctop {
     display: none;
